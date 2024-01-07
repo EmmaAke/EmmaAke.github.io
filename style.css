@@ -12,18 +12,16 @@ html {
     scroll-behavior: smooth;
 }
 
-#loading video {
+#loading {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    z-index: 999;
+    top: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
-    background-size: cover;
-    object-fit: cover;
-    background: #000;
+    background: gainsboro;
     display: flex;
     justify-content: center;
     align-items: center;
